@@ -22,7 +22,7 @@ public class Server {
         Paths.get("public").toAbsolutePath().toString());
 
     post("/create-checkout-session", (request, response) -> {
-        String YOUR_DOMAIN = "http://localhost:4242";
+        String YOUR_DOMAIN = "http://ai-inventions.net";
         SessionCreateParams params =
           SessionCreateParams.builder()
             .setMode(SessionCreateParams.Mode.PAYMENT)
