@@ -16,7 +16,7 @@ public class Server {
     port(4242);
 
     // This is your test secret API key.
-    Stripe.apiKey = "sk_test_51NfB7qJnnavn37HVGuGGgIWiQekD8gAREIgAPGe5QURlreyp02PJVzdMriponHuOEldWPTvn8I7Y0DaPKK3ZeWwk00kIuo7tsg";
+    Stripe.apiKey = "pk_live_51NfB7qJnnavn37HVkzOtjoIUj5TzsbFSFguf4Wy05IyO1T6MdXdpSOo1pxSIzTCWacaNoCABS3g1tLcwKqbXUhqI00O2EDLI4e";
 
     staticFiles.externalLocation(
         Paths.get("public").toAbsolutePath().toString());
